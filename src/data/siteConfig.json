@@ -1,0 +1,24 @@
+{
+  "project": {
+    "name": "NammaKannada",
+    "subtitle": "Kannada for Everyone",
+    "tagline": "Learn Kannada. Speak Confidently. Connect Naturally.",
+    "closingLine": "From knowing Kannada words to using Kannada in real life.",
+    "valueProp": "A real-life Kannada conversation coach that takes you from knowing words to holding everyday conversations in Bengaluru."
+  },
+  "team": [
+    {
+    "name": "Majji Guna Sekhar",
+    "role": "Product & Engineering",
+    "placeholder": false
+    }
+  ],
+  "links": {
+    "github": "https://github.com/YOUR_TEAM/namma-kannada",
+    "live": "https://namma-kannada.vercel.app",
+    "qr": "",
+    "contact": "namma.kannada.team@example.com"
+  },
+  "problemStatement": "Kannada for Everyone — Develop an interactive platform that helps non-Kanniada speakers learn practical Kannada through everyday conversations, situations, vocabulary, and guided practice.",
+  "problemStatementCorrected": "Kannada for Everyone — Develop an interactive platform that helps non-Kannada speakers learn practical Kannada through everyday conversations, situations, vocabulary, and guided practice."
+}

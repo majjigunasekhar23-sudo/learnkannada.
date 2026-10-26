@@ -1,0 +1,133 @@
+{
+  "draft": true,
+  "note": "DRAFT — phrase content needs validation by a fluent Kannada speaker before release. Transliterations and Telugu meanings are approximate. See README 'To verify' list.",
+  "situations": [
+    {
+      "id": "auto",
+      "slug": "taking-an-auto",
+      "title": "Taking an auto",
+      "subtitle": "Ask a driver, agree on a meter, reach your stop",
+      "icon": "auto",
+      "status": "prototype",
+      "available": true,
+      "draft": true,
+      "phrases": [
+        {
+          "id": "auto-q1",
+          "kannada": "ಆಟೋ ಬರ್ತೀರಾ?",
+          "translit": "Auto barteera?",
+          "telugu": "ఆటో వస్తారా?",
+          "english": "Will you come?",
+          "use": "Asking the driver if they'll come to your destination."
+        },
+        {
+          "id": "auto-q2",
+          "kannada": "ಇಂದಿರಾನಗರಕ್ಕೆ ಹೋಗಬೇಕು",
+          "translit": "Indiranagarakke hogbeku",
+          "telugu": "ఇందిరానగర్‌కి వెళ్లాలి",
+          "english": "I need to go to Indiranagar",
+          "use": "Telling the driver your destination."
+        },
+        {
+          "id": "auto-q3",
+          "kannada": "ಮೀಟರ್ ಹಾಕಿ",
+          "translit": "Meter haaki",
+          "telugu": "మీటర్ వేయండి",
+          "english": "Please turn on the meter",
+          "use": "Politely asking the driver to use the meter."
+        },
+        {
+          "id": "auto-q4",
+          "kannada": "ಎಷ್ಟು ಆಗುತ್ತೆ?",
+          "translit": "Eshtu aagutte?",
+          "telugu": "ఎంత అవుతుంది?",
+          "english": "How much will it be?",
+          "use": "Asking the fare before or at the end of the ride."
+        },
+        {
+          "id": "auto-q5",
+          "kannada": "ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ",
+          "translit": "Illi nillisi",
+          "telugu": "ఇక్కడ ఆపండి",
+          "english": "Stop here, please",
+          "use": "Asking the driver to stop at your spot."
+        }
+      ],
+      "roleplay": {
+        "title": "Auto ride dialogue",
+        "intro": "You're in an auto. Pick the right Kannada reply for the driver's line. There's no wrong answer here — listen and try again whenever you like.",
+        "steps": [
+          {
+            "speaker": "driver",
+            "line": "ಎಲ್ಲಿ ಹೋಗಬೇಕು?",
+            "lineTranslit": "Elli hogbeku?",
+            "lineEnglish": "Where do you want to go?",
+            "options": [
+              { "text": "ಇಂದಿರಾನಗರಕ್ಕೆ ಹೋಗಬೇಕು", "correct": true, "feedback": "Exactly! You told the driver your destination." },
+              { "text": "ಮೀಟರ್ ಹಾಕಿ", "correct": false, "feedback": "Nice try — that means 'please turn on the meter'. For 'where to go?' you'd say your destination. Listen once more and try again." },
+              { "text": "ಎಷ್ಟು ಆಗುತ್ತೆ?", "correct": false, "feedback": "Nice try — that means 'how much?'. For 'where to go?' you'd say where you need to go. Listen once more and try again." }
+            ]
+          },
+          {
+            "speaker": "driver",
+            "line": "ಮೀಟರ್ ಹಾಕಿರೋ?",
+            "lineTranslit": "Meter haakiro?",
+            "lineEnglish": "Shall I put the meter on?",
+            "options": [
+              { "text": "ಮೀಟರ್ ಹಾಕಿ", "correct": true, "feedback": "Yes! That confirms you want the meter on." },
+              { "text": "ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ", "correct": false, "feedback": "Nice try — that means 'stop here'. The driver asked about the meter. Listen once more and try again." },
+              { "text": "ಆಟೋ ಬರ್ತೀರಾ?", "correct": false, "feedback": "Nice try — that's for asking if they'll come. The driver asked about the meter. Listen once more and try again." }
+            ]
+          },
+          {
+            "speaker": "driver",
+            "line": "ಬಂದೆ ಸರ್, ಇಲ್ಲಿ ಇಳಿಯಿರಿ.",
+            "lineTranslit": "Bandey sir, illi iliyiri.",
+            "lineEnglish": "We've arrived, sir. Please get down here.",
+            "options": [
+              { "text": "ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ", "correct": true, "feedback": "Perfect — 'stop here, please' fits the moment." },
+              { "text": "ಎಷ್ಟು ಆಗುತ್ತೆ?", "correct": false, "feedback": "Nice try — that's 'how much?', which you'd ask before paying. The driver said you've arrived. Listen once more and try again." },
+              { "text": "ಇಂದಿರಾನಗರಕ್ಕೆ ಹೋಗಬೇಕು", "correct": false, "feedback": "Nice try — you already told them that. They said you've arrived. Listen once more and try again." }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "market",
+      "slug": "at-the-market",
+      "title": "At the market",
+      "subtitle": "Ask prices, bargain, and buy",
+      "icon": "market",
+      "status": "mvp-plan",
+      "available": false,
+      "draft": true,
+      "phrases": [],
+      "roleplay": null
+    },
+    {
+      "id": "cafe",
+      "slug": "at-the-cafe",
+      "title": "At the café",
+      "subtitle": "Order food and drink",
+      "icon": "cafe",
+      "status": "mvp-plan",
+      "available": false,
+      "draft": true,
+      "phrases": [],
+      "roleplay": null
+    },
+    {
+      "id": "directions",
+      "slug": "asking-directions",
+      "title": "Asking directions",
+      "subtitle": "Find your way around Bengaluru",
+      "icon": "directions",
+      "status": "mvp-plan",
+      "available": false,
+      "draft": true,
+      "phrases": [],
+      "roleplay": null
+    }
+  ]
+}
